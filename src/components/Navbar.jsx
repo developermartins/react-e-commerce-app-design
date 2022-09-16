@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import SearchIcon from '@mui/icons-material/Search';
 
 const Navbar = () => {
   return (
@@ -8,7 +9,8 @@ const Navbar = () => {
             <Left>
                 <Language>PT</Language>
                 <SearchContainer>
-                    
+                    <Input />
+                    <SearchIcon />
                 </SearchContainer>
             </Left>
             <Center>Center</Center>
@@ -25,11 +27,14 @@ const Nav = styled.nav`
 const Wrapper = styled.section`
     padding: 10px 20px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
 `;
 
 const Left = styled.div`
     flex: 1;
+    display: flex;
+    align-items: center;
 `;
 
 const Center = styled.div`
@@ -46,7 +51,16 @@ const Language = styled.span`
 `;
 
 const SearchContainer = styled.div`
+    border: 0.5px solid lightgray;
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    padding: 5px;
+`;
 
+const Input = styled.input`
+    border: none;
+    outline: none;
 `;
 
 
