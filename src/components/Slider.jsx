@@ -9,6 +9,11 @@ const Slider = () => {
         <Arrow direction="left">
             <ArrowBackIosNewOutlinedIcon />
         </Arrow>
+        <Wrapper>
+            <ImageContainer>
+                <Image src='https://i.ibb.co/cXFnLLV/3.png' />
+            </ImageContainer>
+        </Wrapper>
         <Arrow direction="right">
             <ArrowForwardIosOutlinedIcon />
         </Arrow>
@@ -39,6 +44,27 @@ const Arrow = styled.div`
     margin: auto;
     cursor: pointer;
     opacity: 0.7;
+`;
+
+const Wrapper = styled.div`
+    height: 100%;
+`;
+
+const Slide = styled.div`
+    display: flex;
+    align-items: center;
+`;
+
+const ImageContainer = styled.div`
+    flex: 1;
+`;
+
+const Image = styled.img`
+
+`;
+
+const InfoContainer = styled.div`
+    flex: 1;
 `;
 
 export default Slider;
