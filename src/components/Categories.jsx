@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
+import CatgoryItem from './CatgoryItem';
 
 import { categories } from '../mock/data';
-import CatgoryItem from './CatgoryItem';
 
 const Categories = () => {
   return (
