@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const CatgoryItem = () => {
+const CatgoryItem = ({ item }) => {
   return (
     <Container>CatgoryItem</Container>
   );

@@ -1,9 +1,16 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import { categories } from '../mock/data';
+import CatgoryItem from './CatgoryItem';
+
 const Categories = () => {
   return (
-    <Container>Categories</Container>
+    <Container>
+        { categories.map((item) => {
+            <CatgoryItem item={ item } />
+        }) }
+    </Container>
   );
 };
 
