@@ -14,6 +14,10 @@ const Categories = () => {
   );
 };
 
-const Container = styled.section``;
+const Container = styled.section`
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+`;
 
 export default Categories;
