@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const Categories = () => {
   return (
-    <div>Categories</div>
+    <Container>Categories</Container>
   );
 };
 
