@@ -7,9 +7,9 @@ import { categories } from '../mock/data';
 const Categories = () => {
   return (
     <Container>
-        { categories.map((item) => {
+        { categories.map((item) => (
             <CatgoryItem item={ item } />
-        }) }
+        )) }
     </Container>
   );
 };
