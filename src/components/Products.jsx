@@ -14,6 +14,11 @@ const Products = () => {
   );
 };
 
-const Container = styled.section``;
+const Container = styled.section`
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+`;
 
 export default Products;

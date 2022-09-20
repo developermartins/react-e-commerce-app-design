@@ -47,7 +47,7 @@ export const sliderItems = [
     },
     {
       id:2,
-      img:"https://cdn.shopify.com/s/files/1/0101/4832/products/Angela_Natural_Tee.png?v=1606780388",
+      img:"https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-BRECOM-Site/Sites-master/pt_BR/dw363af6fa/L1212_476_24.jpg?imwidth=915&impolicy=product",
     },
     {
       id:3,
@@ -67,7 +67,7 @@ export const sliderItems = [
     },
     {
       id:7,
-      img:"https://www.vintageindustries.nl/download_front/qympzk1762/2217_Arrow_Jacket_Forest.png",
+      img:"https://www.vintageindustries.nl/download_front/schkyb1297/_overview_large_/5012_Corduroy_cap_Beige.png",
     },
     {
       id:8,
