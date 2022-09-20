@@ -1,9 +1,16 @@
 import React from 'react';
 import styled from 'styled-components';
+import Product from './Product';
+
+import { popularProducts } from '../mock/data';
 
 const Products = () => {
   return (
-    <Container>Products</Container>
+    <Container>
+        { popularProducts.map((item) => (
+            <Product item={ item } />
+        )) }
+    </Container>
   );
 };
 
