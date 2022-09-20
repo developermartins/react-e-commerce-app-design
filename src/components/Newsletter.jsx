@@ -1,8 +1,19 @@
 import React from 'react';
 
+import { Send } from '@mui/icons-material';
+
 const Newsletter = () => {
   return (
-    <div>Newsletter</div>
+    <Container>
+        <Title></Title>
+        <Description></Description>
+        <InputContainer>
+            <Input />
+            <Button>
+                <Send />
+            </Button>
+        </InputContainer>
+    </Container>
   );
 };
 
