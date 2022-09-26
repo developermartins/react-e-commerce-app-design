@@ -5,6 +5,7 @@ import Footer from '../components/Footer';
 import Announcements from '../components/Announcements';
 
 import { Add, Remove } from '@mui/icons-material';
+import { mobile } from '../responsive';
 
 const Cart = () => {
   return (
@@ -77,6 +78,10 @@ const Container = styled.section`
 
 const Wrapper = styled.div`
     padding: 20px;
+
+    ${mobile({ 
+        padding: "10px",
+    })};
 `;
 
 const Title = styled.h1`
@@ -104,9 +109,17 @@ const TopButtom = styled.button`
 const Bottom = styled.div`
     display: flex;
     justify-content: space-between;
+
+    ${mobile({ 
+        flexDirection: "column",
+    })};
 `;
 
-const TopTexts = styled.div``;
+const TopTexts = styled.div`
+    ${mobile({ 
+        display: "none",
+    })};
+`;
 
 const TopText = styled.span`
     text-decoration: underline;
@@ -129,6 +142,10 @@ const Summary = styled.div`
 const Product = styled.div`
     display: flex;
     justify-content: space-between;
+
+    ${mobile({ 
+        flexDirection: "column",
+    })};
 `;
 
 const ProductDetail = styled.div`
@@ -177,11 +194,19 @@ const ProductAmountContainer = styled.div`
 const ProductAmount = styled.span`
     font-size: 2.4rem;
     margin: 5px;
+
+    ${mobile({ 
+        margin: "5px 15px",
+    })};
 `;
 
 const ProductPrice = styled.span`
     font-size: 3rem;
     font-weight: 300;
+
+    ${mobile({ 
+        marginBottom: "20px",
+    })};
 `;
 
 const Hr = styled.hr`
