@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import { mobile } from '../responsive';
+
 const Announcements = () => {
   return (
     <Container>
@@ -18,6 +20,8 @@ const Container = styled.section`
     justify-content: center;
     font-size: 1rem;
     font-weight: 500;
+
+    ${mobile({ fontSize: "0.8rem" })}
 `;
 
 export default Announcements;
