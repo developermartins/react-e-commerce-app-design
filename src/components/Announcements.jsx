@@ -6,7 +6,7 @@ import { mobile } from '../responsive';
 const Announcements = () => {
   return (
     <Container>
-        Super oferta! Frete grátis para compras acima de R$50,00
+        Super Deal! Free shipping on orders over $50
     </Container>
   );
 };
