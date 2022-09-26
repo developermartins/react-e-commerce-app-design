@@ -3,7 +3,9 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 import ArrowBackIosNewOutlinedIcon from '@mui/icons-material/ArrowBackIosNewOutlined';
 import ArrowForwardIosOutlinedIcon from '@mui/icons-material/ArrowForwardIosOutlined';
+
 import { sliderItems } from '../mock/data';
+import { mobile } from '../responsive';
 
 const Slider = () => {
 
@@ -51,6 +53,8 @@ const Container = styled.section`
     display: flex;
     position: relative;
     overflow: hidden;
+
+    ${mobile({ display: "none" })};
 `;
 
 const Arrow = styled.div`
