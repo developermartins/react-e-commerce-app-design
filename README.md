@@ -1,4 +1,4 @@
-# Wellcome to React E-Commerce App client repository!▶️
+# Wellcome to React E-Commerce App client repository! 👕🛍️
 <br />
 
 <img src="src/img/home.png" />
